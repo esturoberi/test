@@ -1,0 +1,47 @@
+body {
+    background-color: #27282b;
+    padding: 20px;
+}
+header {
+    background-color: #364359;
+    text-align: center;
+    
+}
+.scoreBoard {
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid white;
+}
+.result {
+    text-align: center;
+}
+#playerLabel {
+    position: absolute;
+    top: 70px;
+}
+
+#computerLabel {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    bottom: 40px;
+}
+.choice {
+    text-align: center;
+    font-size: 40px;
+    border: 2px;
+    display: inline;
+    margin: 5%;
+
+    
+}
+* {
+    margin: 20px;
+   padding: 10px;
+    font-family: sans-serif;
+    
+}
+.choice:hover {
+    cursor: pointer;
+}
+
